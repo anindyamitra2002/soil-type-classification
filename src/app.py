@@ -17,4 +17,4 @@ demo = gr.Interface(fn=main,
              outputs=gr.Label(num_top_classes=1), allow_flagging='never')
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(share=True)
