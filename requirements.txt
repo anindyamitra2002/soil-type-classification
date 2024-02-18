@@ -1,2 +1,4 @@
+tensorflow[and-cuda]
+numpy
 gradio
 opencv-python
