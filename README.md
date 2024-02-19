@@ -3,8 +3,7 @@
 # Soil Type Classification
 
 ## Overview
-
-This repository contains the code and models for a soil type classification project. The objective is to classify soil types based on a dataset of 2067 images belonging to 8 different classes: 'Chalky Soil', 'Mary Soil', 'Sand', 'Slit Soil', 'Alluvial Soil', 'Black Soil', 'Clay Soil', 'Red Soil'. The dataset has been augmented using various parameters to enhance the model's performance.
+Soil type classification is pivotal for agricultural decision-making, guiding farmers in optimal crop selection and fertilizer application. Understanding soil characteristics ensures tailored agricultural practices, maximizing crop yield and minimizing environmental impact. Accurate classification enables precision farming, facilitating data-driven decisions for irrigation, nutrient management, and crop planning. This not only enhances agricultural productivity but also promotes sustainable practices, conserving resources and mitigating potential risks. In essence, soil type classification serves as a fundamental tool to empower farmers with actionable insights, fostering efficient and sustainable agriculture practices.
 
 ## Dataset Metadata
 
