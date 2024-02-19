@@ -54,6 +54,8 @@ To reproduce the results or use the trained models, follow these steps:
 
 ```bash
 git clone https://github.com/your-username/soil-type-classification.git
+```
+```bash
 cd soil-type-classification
 ```
 
