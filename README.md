@@ -76,10 +76,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Mention any credits, references, or sources of inspiration.
+- Created by Anindya Mitra, Sayan Mukherjee and Nandana Mukherjee
 
-Feel free to explore, contribute, and adapt the code for your soil classification projects! If you have any questions or issues, please open an [issue](https://github.com/your-username/soil-type-classification/issues).
 
---- 
-
-Customize the README file with your specific details, and make sure to include any additional information or sections relevant to your project.
