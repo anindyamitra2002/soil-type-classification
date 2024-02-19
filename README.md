@@ -1,12 +1,23 @@
-Certainly! Below is a template for a GitHub README file for your soil type classification project:
 
----
 
 # Soil Type Classification
 
 ## Overview
 
 This repository contains the code and models for a soil type classification project. The objective is to classify soil types based on a dataset of 2067 images belonging to 8 different classes: 'Chalky Soil', 'Mary Soil', 'Sand', 'Slit Soil', 'Alluvial Soil', 'Black Soil', 'Clay Soil', 'Red Soil'. The dataset has been augmented using various parameters to enhance the model's performance.
+
+## Dataset Metadata
+
+The dataset comprises a total of 2067 images, each belonging to one of the following 8 classes:
+
+1. Chalky Soil
+2. Mary Soil
+3. Sand
+4. Slit Soil
+5. Alluvial Soil
+6. Black Soil
+7. Clay Soil
+8. Red Soil
 
 ## Dataset Augmentation
 
@@ -29,11 +40,12 @@ We have experimented with both Convolutional Neural Networks (CNNs) including cu
 
 The models were evaluated using a test set of 418 images, and the performance metrics are recorded in the following table:
 
-| Model                  | Accuracy | Precision | Recall | F1 Score |
-|------------------------|----------|-----------|--------|----------|
-| Custom CNN             | 0.85     | 0.86      | 0.84   | 0.85     |
-| Pretrained CNN         | 0.88     | 0.89      | 0.87   | 0.88     |
-| Machine Learning Model | 0.78     | 0.80      | 0.76   | 0.78     |
+|     Model Name      |     Epochs    |     loss    |     Accuracy    |
+|---------------------|---------------|-------------|-----------------|
+|     VGG16           |     50        |     0.43    |     0.83        |
+|     custom   CNN    |     10        |     0.70    |     0.76        |
+|     DenseNet121     |     65        |     0.12    |     0.95        |
+|     custom   CNN    |     20        |     0.21    |     0.81        |
 
 ## Getting Started
 
@@ -50,6 +62,9 @@ cd soil-type-classification
 
 ```bash
 pip install -r requirements.txt
+```
+```bash
+gradio src/app.py
 ```
 
 3. Run the provided scripts or adapt them for your specific use case.
