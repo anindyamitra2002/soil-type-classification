@@ -39,12 +39,13 @@ We have experimented with both Convolutional Neural Networks (CNNs) including cu
 
 The models were evaluated using a test set of 418 images, and the performance metrics are recorded in the following table:
 
-|     Model Name      |     Epochs    |     loss    |     Accuracy    |
-|---------------------|---------------|-------------|-----------------|
-|     VGG16           |     50        |     0.43    |     0.83        |
-|     custom   CNN    |     10        |     0.70    |     0.76        |
-|     DenseNet121     |     65        |     0.12    |     0.95        |
-|     custom   CNN    |     20        |     0.21    |     0.81        |
+| Model        | Epochs | Loss | Accuracy | Overall Precision | Overall Recall |
+|--------------|--------|------|----------|-------------------|----------------|
+| DenseNet121  | 65     | 0.65 | 0.96     | 0.9500            | 0.9476         |
+| ResNet50     | 50     | 0.50 | 0.89     | 0.8688            | 0.8666         |
+| VGG16        | 50     | 0.50 | 0.83     | 0.7938            | 0.7772         |
+| InceptionV3  | 50     | 0.50 | 0.89     | 0.8462            | 0.8602         |
+
 
 ## Getting Started
 
